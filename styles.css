@@ -1,0 +1,46 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #0c0f14;
+    color: #f3f4f6;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #161b22;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #30363d;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f59e0b;
+}
+
+/* Hide scrollbar for category bar */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Neon Glow Utilities */
+.glow-amber {
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.25);
+}
+
+.glow-green {
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.25);
+}
+
+.glow-pink {
+    box-shadow: 0 0 15px rgba(236, 72, 153, 0.25);
+}
