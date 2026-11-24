@@ -4,10 +4,10 @@ import { getFirestore, doc, setDoc, onSnapshot, collection, deleteDoc, addDoc, g
 
 // Global Data Models & Application State
 const TABLES = ["Mesa 1", "Mesa 2", "Mesa 3", "Mesa 4", "Mesa 5", "Mesa 6", "Barra 1", "Barra 2", "Terraza 1", "Terraza 2", "VIP 1", "VIP 2"];
-const CATEGORIES = ["Cervezas", "Cocteles", "Tragos / Licores", "Alimentos", "Sin Alcohol"];
+const CATEGORIES = ["Miches","Cervezas", "Cocteles", "Tragos / Licores", "Alimentos", "Sin Alcohol"];
 
 const PRODUCTS = [
-    { id: "p1", name: "Cerveza IPAS Craft", price: 95.00, category: "Cervezas", icon: "fa-beer-mug-empty", color: "text-amber-400" },
+    { id: "p1", name: "Miche de mango", price: 95.00, category: "Miches", icon: "fa-beer-mug-empty", color: "text-amber-400" },
     { id: "p2", name: "Cerveza Lager Draft", price: 75.00, category: "Cervezas", icon: "fa-glass-water", color: "text-amber-300" },
     { id: "p3", name: "Stout Negra", price: 105.00, category: "Cervezas", icon: "fa-beer-mug-empty", color: "text-amber-600" },
     { id: "p4", name: "Margarita Neón", price: 140.00, category: "Cocteles", icon: "fa-martini-glass-citrus", color: "text-emerald-400" },
